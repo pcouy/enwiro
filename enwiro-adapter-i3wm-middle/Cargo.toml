@@ -1,0 +1,15 @@
+[package]
+name = "enwiro-adapter-i3wm-middle"
+version = "0.1.1"
+edition = "2021"
+description = "i3wm adapter for enwiro"
+license = "GPL-3.0-or-later"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.5.4", features = ["derive"] }
+home = "0.5.9"
+i3ipc-types = "0.16.0"
+tokio = "1.37.0"
+tokio-i3ipc = "0.16.0"

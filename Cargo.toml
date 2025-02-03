@@ -2,6 +2,7 @@
 members = [
     "enwiro",
     "enwiro-adapter-i3wm",
+    "enwiro-adapter-i3wm-middle",
     "enwiro-cookbook-git",
 ]
 
