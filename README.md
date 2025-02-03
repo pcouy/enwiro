@@ -65,6 +65,9 @@ desktop workspace with a name matching the name of the environment you want to u
 and run  `enwiro wrap <COMMAND> [-- [COMMAND_ARGS]...]`. If no matching environment
 is found, it will default to using your home direcory.
 
+An environment variable `ENWIRO_ENV` containing the `enwiro` environment name
+will also be added before runnning commands with `enwiro wrap ...`.
+
 An environment could be linked to:
 
 - Any branch of a Git repository checked out on your local computer
